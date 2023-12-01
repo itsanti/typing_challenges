@@ -1,8 +1,8 @@
 from constants import ___
+from typing import Set
 
-
-def ban_users(users_ids: ___) -> ___:
-    pass
+def ban_users(users_ids: Set[int]) -> int:
+    return 0
 
 
 if __name__ == "__main__":

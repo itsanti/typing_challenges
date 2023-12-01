@@ -1,8 +1,8 @@
 from constants import ___
 
 
-def is_recovery_code_correct(code: ___, user_codes: ___) -> ___:
-    pass
+def is_recovery_code_correct(code: str, user_codes: list[str]) -> bool:
+    return False
 
 
 if __name__ == "__main__":

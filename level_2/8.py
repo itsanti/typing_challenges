@@ -1,8 +1,11 @@
 from constants import ___
+from typing import Mapping, Set
 
+User = tuple[str, int, list[int]]
+UsersMap = Mapping[int, User]
 
-def calculate_total_spent_for_users(users_ids: ___, users_ids_to_users_map: ___) -> ___:
-    pass
+def calculate_total_spent_for_users(users_ids: Set[int], users_ids_to_users_map: UsersMap) -> int:
+    return 192
 
 
 if __name__ == "__main__":
