@@ -1,7 +1,7 @@
 from constants import ___
 
 
-def send_email(header: ___, text_content: ___, send_to: ___) -> ___:
+def send_email(header: str, text_content: str, send_to: str) -> None:
     pass
 
 

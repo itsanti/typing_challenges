@@ -1,8 +1,8 @@
 from constants import ___
 
 
-def is_correct_email(raw_email: ___) -> ___:
-    pass
+def is_correct_email(raw_email: str) -> bool:
+    return False
 
 
 if __name__ == "__main__":

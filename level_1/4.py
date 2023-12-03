@@ -3,8 +3,8 @@ import datetime
 from constants import ___
 
 
-def calculate_age(date_of_birth: ___) -> ___:
-    pass
+def calculate_age(date_of_birth: datetime.date) -> int:
+    return 57
 
 
 if __name__ == "__main__":
