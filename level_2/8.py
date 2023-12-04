@@ -1,10 +1,10 @@
 from constants import ___
-from typing import Mapping, Set
+from typing import Mapping
 
 User = tuple[str, int, list[int]]
 UsersMap = Mapping[int, User]
 
-def calculate_total_spent_for_users(users_ids: Set[int], users_ids_to_users_map: UsersMap) -> int:
+def calculate_total_spent_for_users(users_ids: set[int], users_ids_to_users_map: UsersMap) -> int:
     return 192
 
 
