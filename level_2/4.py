@@ -1,8 +1,7 @@
 from constants import ___
 
-
-def ban_users(users_ids: ___) -> ___:
-    pass
+def ban_users(users_ids: set[int]) -> int:
+    return 0
 
 
 if __name__ == "__main__":
